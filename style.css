@@ -22,7 +22,7 @@
 }
 
 body {
-    /* height: 100vh; */
+    height: 100vh;
     font-family: 'poppins';
     background-color: rgb(52, 61, 125);
     display: flex;
@@ -35,7 +35,6 @@ body {
 }
 
 form {
-    margin-top: 100px;
     background-color: rgb(16, 26, 44);
     gap: 40px;
     padding: 65px 50px;
