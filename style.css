@@ -93,3 +93,44 @@ input {
 .button:hover {
     background-color:  rgb(48, 214, 78);
 }
+
+@media screen and (max-width:835px) {
+    .container {
+        width: 40%;
+    }
+
+    form {
+        padding: 45px 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    #username:focus {
+        width: 90%;
+        border-color: rgb(48, 214, 78) ;
+    }
+    
+    #password:focus {
+        width: 90%;
+        border-color: rgb(48, 214, 78) ;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .container {
+        width: 55%;
+    }
+
+    form {
+        padding: 35px 25px;
+        gap: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+}
